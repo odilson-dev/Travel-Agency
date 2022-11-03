@@ -1,0 +1,261 @@
+/*GENERAL*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: arial, sans-serif;
+    font-size: 15px;
+}
+.wrapper{
+    width: 940px;
+    margin: 0px auto;
+    padding: 0px 10px;
+}
+a{
+    text-decoration: none;
+    color: #444;
+}
+ul{
+    list-style: none;
+}
+h1, h2, h3, h4{
+    color:  #444;
+    
+
+}
+h1{
+    font-family: 'crete round', sans-serif;
+    font-size: 45px;
+}
+h2{
+    font-size: 55px;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 24px;
+}
+p{
+    line-height: 20px;
+    color: #777;
+}
+.orange{
+    color: #ff7a00;
+}
+small{
+    font-size: 13px;
+    font-style: italic;
+}
+.clear{
+    clear: both;
+}
+/*HEADER*/
+
+header{
+    height: 120px;
+}
+header h1{
+    margin-top: 32px;
+    float: left;
+}
+header nav{
+    float: right;
+    margin-top: 50px;
+}
+header nav ul li{
+    display: inline-block;
+    float: left;
+}
+header nav ul li a:hover{
+    border-bottom: 4px solid #444;
+}
+header nav ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+    padding-bottom: 4px;
+}
+
+/*MAIN-IMAGE*/
+#main-image{
+    height: 580px;
+    background: url(images/main.jpg) center;
+}
+#main-image h2{
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 120px 0px 40px 0px;
+    margin-bottom: 20px;
+}
+.button-1{
+    display: block;
+    width: 120px;
+    height: 50px;
+    background-color: #ff7a00;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+}
+.button-1, button-2:hover{
+    background-color: #02b8dd;
+}
+
+/*STEPS*/
+
+#steps h4{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#steps p{
+    margin-bottom: 20px;
+}
+#steps ul{
+    margin: 80px 0;
+}
+#steps ul li{
+    width: 300px;
+    float: left;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px;
+    
+}
+
+#step-1{
+    background: url(images/steps-icon-1.png) no-repeat top center;
+}
+#step-2{
+    background: url(images/steps-icon-2.png) no-repeat top center;
+}
+#step-3{
+    background: url(images/steps-icon-3.png) no-repeat top center;
+}
+/* POSSIBILITIES*/
+#possibilities{
+    background-color: #efefef;
+    padding: 60px 0;
+}
+
+#possibilities article{
+    height: 270px;
+    width: 460px;
+    float: left;
+    border-radius: 10px;
+    
+}
+#possibilities article:first-child{
+    margin-right: 20px;
+}
+#possibilities p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.overlay{
+    background-color: rgb(255, 255, 255, 0.95);
+    height: 100%;
+    width: 190px;
+    padding: 20px;
+    border-radius: 10px 0px 0px 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+article h4{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center
+}
+.button-2{
+    color: white;
+    background-color: #ff7a00;
+    padding: 6px 20px;
+    border-radius: 3px;
+}
+/*CONTACT*/
+#contacts{
+    padding: 60px 0;
+    text-align: center;
+}
+#contacts h3{
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    width: 400px;
+    border-bottom: 1px solid #02b8dd;
+    padding: 20px;
+}
+#contacts p{
+    margin-bottom: 20px;
+}
+form{
+    margin: 60px 0 20px 0;
+}
+label{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #777;
+}
+input[type="text"], input[type="email"]{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+.button-3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px;
+    background-color: #02b8dd;
+    border-style: none;
+    border-radius: 3px;
+}
+.button-3:hover{
+    background-color: #444;
+}
+/*FOOTER*/
+footer{
+    height: 260px;
+    background-color: #444;
+}
+footer h1{
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+.copyright{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
